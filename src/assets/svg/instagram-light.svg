@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+	<defs>
+		<linearGradient id="gunmetal">
+			<stop stop-color="#282D37"/> 
+		</linearGradient>
+		<linearGradient id="white">
+			<stop stop-color="#ffffff"/> 
+		</linearGradient>
+	</defs>
+	
+	<!-- <rect width="32" height="32" fill="#ffaaaa"/> -->
+	
+	<!-- M -->
+	<g stroke-width="2" fill="none" stroke="url(#white)" stroke-linecap="round" stroke-linejoin="round">
+		<path d="M4 8 a 4 4 0 0 1 4 -4 l16 0" />
+		<g transform="rotate(90,16,16)">
+			<path d="M4 8 a 4 4 0 0 1 4 -4 l16 0" />
+			<g transform="rotate(90,16,16)">
+				<path d="M4 8 a 4 4 0 0 1 4 -4 l16 0" />
+				<g transform="rotate(90,16,16)">
+					<path d="M4 8 a 4 4 0 0 1 4 -4 l16 0" />
+				</g>
+			</g>
+		</g>
+		<circle cx="16" cy="16" r="5.5" fill="none" />
+		<circle cx="23" cy="9" r="2" fill="url(#white)" stroke="none" />
+	</g>
+	
+</svg>

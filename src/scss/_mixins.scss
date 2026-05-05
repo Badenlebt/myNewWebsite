@@ -1,0 +1,31 @@
+@use 'sass:list';
+@use 'sass:map';
+@use 'variables' as *;
+
+// ======================
+// Responsive Breakpoint Mixin
+// ======================
+@mixin respond-to($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media (min-width: map.get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$breakpoint}";
+  }
+}
+
+// ======================
+// Transition Helper
+// ======================
+@mixin transition($properties...) {
+  @if list.length($properties) == 0 {
+    transition: all 0.3s ease;
+  } @else {
+    $result: ();
+    @each $prop in $properties {
+      $result: list.append($result, $prop 0.3s ease, comma);
+    }
+    transition: $result;
+  }
+}

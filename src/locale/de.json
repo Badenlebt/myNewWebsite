@@ -1,0 +1,103 @@
+{
+  "buttons": {
+    "back": "Zurück",
+    "open": "Öffnen",
+    "toTop": "Nach oben"
+  },
+  "global": {
+    "title": "Michael Hitzelberger",
+    "subtitle": "Gedichte, Bücher und mehr",
+    "moreLinks": "Weitere Links",
+    "imprint": "Impressum",
+    "social": "Social Media",
+    "imageRight": "Bild",
+    "titleImageRight": "Titelbild",
+    "author": "Michael Hitzelberger"
+  },
+  "links": {
+    "start": "Startseite",
+    "blog": "Blog",
+    "books": "Bücher",
+    "keinhorn": "Das Keinhorn",
+    "albertAmeise": "Albert Ameise",
+    "imprint": "Impressum",
+    "startUrl": "/",
+    "blogUrl": "/blog",
+    "booksUrlPart": "/buecher/",
+    "keinhornUrl": "/buecher/das-keinhorn",
+    "albertAmeiseUrl": "/buecher/albert-ameise",
+    "imprintUrl": "/impressum",
+    "aboutMe": "Über mich",
+    "aboutMeUrl": "/ueber-mich",
+    "herzgedanken": "Herzgedanken",
+    "herzgedankenUrl": "/buecher/herzgedanken"
+  },
+  "welcome": {
+    "title": "WILLKOMMEN",
+    "subtitle": "auf meiner Seite!",
+    "text": "Ich veröffentliche hier meine Gedichte,\npräsentiere meine Bücher,\nund zeige euch, was ich sonst so mache,\nwas mich bewegt und beschäftigt.\n\nViel Spaß beim Stöbern!"
+  },
+  "books": {
+    "homeTitle": "Aktuelle Buchprojekte",
+    "homeIntro": "Hier stelle ich euch meine aktuellen Buchprojekte vor.",
+    "moreLink": "Mehr Infos zum Buch",
+    "notFound": "Buch nicht gefunden",
+    "notFoundText": "Unter dieser URL konnte leider kein Buch gefunden werden.",
+    "lookHere": "Alle aktuellen Bücher sind hier zu finden:",
+    "shopTitle": "Links zum Buchshop"
+  },
+  "blog": {
+    "title": "Blog",
+    "count": "Einträge",
+    "tagChosen": "mit dem Tag",
+    "categoryChosen": "in der Kategorie",
+    "moreEntries": "Weitere Blogeinträge",
+    "showMore": "Mehr Einträge anzeigen",
+    "categories": "Kategorien",
+    "tags": "Schlagwörter",
+    "homeTitle": "Neuste Blogeinträge",
+    "moreLink": "Weiterlesen",
+    "allEntries": "Alle Blogeinträge ansehen",
+    "notFound": "Eintrag nicht gefunden",
+    "notFoundText": "Unter dieser URL konnte leider kein Eintrag gefunden werden.",
+    "lookHere": "Alle Blogeinträge sind hier zu finden:"
+  },
+  "tags": {
+    "poem": "Gedichte",
+    "german": "Deutsch",
+    "english": "Englisch",
+    "limerick": "Limericks",
+    "hommage": "Hommage",
+    "shortstory": "Kurzgeschichte"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Unter dieser URL konnte leider keine Seite gefunden werden.",
+    "toStartpage": "Hier geht es zur"
+  },
+  "imprint": {
+    "title": "Impressum",
+    "responsible": "Verantwortlich für den Inhalt und Datenschutz:",
+    "address": "Michael Hitzelberger\nPostweg 2\n74858 Aglasterhausen",
+    "mail": "mail{'@'}mhitzelberger.de",
+    "whoWeAre": "Wer wir sind",
+    "whoWeAreText": "Die Adresse unserer Webseite ist:",
+    "whoWeAreUrl": "https://mhitzelberger.de",
+    "data": "Datenschutz",
+    "dataText": "Mit der folgenden Datenschutzerklärung möchten wir Dich darüber aufklären, welche Arten Ihrer personenbezogenen Daten wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl auf unseren Webseiten, als auch innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (z.B. Facebook oder Instagram).",
+    "cookies": "Cookies",
+    "cookiesText1": "Cookies sind Textdateien, die Daten von besuchten Websites oder Domains enthalten und von einem Browser auf dem Computer des Benutzers gespeichert werden. Ein Cookie dient in erster Linie dazu, die Informationen über einen Benutzer während oder nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Zu den gespeicherten Angaben können z.B. die Spracheinstellungen auf einer Webseite, der Loginstatus, ein Warenkorb oder die Stelle, an der ein Video geschaut wurde, gehören.",
+    "cookiesText2": "Diese Website benutzt Cookies, um Deine Interaktion mit der Inhalten aufzuzeichnen. Dabei werden keine Daten an Dritte weitergegeben. Du kannst dem Setzen von Cookies widersprechen, indem du sie im Cookie-Dialog auf unserer Seite ablehnst. Des weiteren beachtet unsere Tracking-Technologie die \"Do-not-track\"-Einstellung des Browsers; sollte diese aktiviert sein, werden keine Nutzungsdaten gespeichert.",
+    "otherSites": "Eingebettete Inhalte anderer Webseiten",
+    "otherSitesText1": "Beiträge auf dieser Website können eingebettete Inhalte beinhalten (z. B. Videos, Bilder, Beiträge etc.). Eingebettete Inhalte von anderen Websites verhalten sich exakt so, als ob der Besucher die andere Website besucht hätte.",
+    "otherSitesText2": "Diese Websites können Daten über Dich sammeln, Cookies benutzen, zusätzliche Tracking-Dienste von Dritten einbetten und Deine Interaktion mit diesem eingebetteten Inhalt aufzeichnen, inklusive Deiner Interaktion mit dem eingebetteten Inhalt, falls Du ein Konto hast und auf dieser Website angemeldet bist."
+  },
+  "aboutMe": {
+    "title": "Über mich",
+    "text0": "Ich bin Diplom-Informatiker (Bioinformatik), wohne mit meiner Familie in Aglasterhausen und arbeite bei der DB Systel GmbH als IT-Berater.",
+    "text1": "In meiner Freizeit schreibe ich Gedichte und Geschichten und bin unter anderem bei der „Echt Mosbacher Fassenacht\" der <a href=\"https://www.kolping-mosbach.de/echt-mosbacher-fassenacht/\" target=\"_blank\" rel=\"noopener\">Kolpingsfamilie Mosbach</a> als <a href=\"http://kandelschiffer.de/\" target=\"_blank\" rel=\"noopener\">Kandelschiffer</a> aktiv.",
+    "text2": "Für meine Töchter habe ich Gute-Nacht-Geschichten über Albert Ameise erfunden und habe diese Anfang 2026 als Vorlesebuch zu veröffentlicht. Dazu gibt es ein Ausmalbuch mit den Illustrationen aus dem Buch. Siehe:",
+    "text3": "Ein gereimtes Buch über ein Keinhorn, das von den Einhörnern nicht akzeptiert wird, habe ich 2021 veröffentlicht. Siehe:",
+    "text4": "Hier auf der Seite werde ich daneben auch zu verschiedenen anderen Themen Beiträge veröffentlichen."
+  }
+}

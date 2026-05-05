@@ -1,0 +1,40 @@
+// ======================
+// Color Palette
+// ======================
+$color-gunmetal: #282D37;
+$color-purple-dark: #39107B;
+$color-purple-medium: #6C3483;
+$color-purple-light: #C15BEB;
+$color-white: #fff;
+
+// ======================
+// Typography
+// ======================
+$font-family-base: 'Nunito', sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.6;
+
+// ======================
+// Spacing Scale (4px/8px based)
+// ======================
+$spacing-xs: 0.25rem;  // 4px
+$spacing-sm: 0.5rem;   // 8px
+$spacing-md: 1rem;     // 16px
+$spacing-lg: 1.5rem;   // 24px
+$spacing-xl: 2rem;     // 32px
+$spacing-xxl: 3rem;    // 48px
+
+// ======================
+// Responsive Breakpoints
+// ======================
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+$breakpoints: (
+  'sm': $breakpoint-sm,
+  'md': $breakpoint-md,
+  'lg': $breakpoint-lg,
+  'xl': $breakpoint-xl,
+);

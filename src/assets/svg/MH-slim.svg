@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+	<defs>
+		<linearGradient id="color1">
+			<stop stop-color="#02f5f9"/> <!-- #0fd0d6--> <!-- darkturqoise: #00ced1 --> <!-- turqoise: #40e0d0 -->
+		</linearGradient>
+		<linearGradient id="color1-lin" x1="0" x2="1" y1="0" y2="1">
+			<stop offset="0%" stop-color="#00ced1"/>
+			<stop offset="50%" stop-color="#02f5f9"/>
+			<stop offset="100%" stop-color="#00ced1"/>
+		</linearGradient>
+		
+		<linearGradient id="color2">
+			<stop stop-color="#9317e6"/> <!-- #9317e6" --> <!-- darkviolet: #9400d3 --> <!-- indigo: 4b0082 -->
+		</linearGradient>
+		<linearGradient id="color2-lin" x1="0" x2="1" y1="0" y2="1">
+			<stop offset="0%" stop-color="#4b0082"/>
+			<stop offset="50%" stop-color="#9317e6"/>
+			<stop offset="100%" stop-color="#4b0082"/>
+		</linearGradient>
+		
+		<linearGradient id="color3">
+			<stop stop-color="#e6e7e8"/> <!--9317e6"/-->
+		</linearGradient>
+		<linearGradient id="color3-lin" x1="0" x2="1" y1="0" y2="1">
+			<stop offset="0%" stop-color="#9e9e9e"/>
+			<stop offset="50%" stop-color="#ffffff"/>
+			<stop offset="100%" stop-color="#9e9e9e"/>
+		</linearGradient>
+		<!--radialGradient id="color3-rad"
+            cx="0.5" cy="0.5" r="1" fx="0.66" fy="0.33"
+            spreadMethod="pad">
+			<stop offset="0%" stop-color="#ffffff"/>
+			<stop offset="25%" stop-color="#e6e7e8"/>
+			<stop offset="100%" stop-color="#9e9e9e"/>
+		</radialGradient-->
+	</defs>
+	
+	<!--rect width="1024" height="1024" fill="#fafafa"/-->
+	
+	<!-- M -->
+	<g stroke-width="60" fill="none" stroke="url(#color1-lin)">
+		<!--circle stroke-width="5" cx="512" cy="512" r="400" /-->
+		<path d="M229 795 a400 400 0 0 1 68 -624 l215 215 215 -215 a400 400 0 0 1 68 624" />
+		
+	</g>
+	
+	<!-- O -->
+	<g stroke-width="60" fill="none" stroke="url(#color3-lin)">
+		<circle stroke-width="10" cx="512" cy="512" r="290" />
+	</g>
+	
+	<!-- H -->
+	<g stroke-width="100" fill="none" stroke="url(#color2-lin)" transform="translate(512, 512) scale(0.6, .6) translate(-512, -512)">
+		<!-- circle stroke-width="5" cx="512" cy="512" r="280" /-->
+		<path  d="M314 710 a280 280 0 0 1 0 -396 M232 512 l560 0 M710 314 a280 280 0 0 1 0 396" />
+		<!--rect x="232" y="467" width="560" height="60" fill="url(#color2-lin)" stroke="none" /-->
+	</g>
+	
+</svg>

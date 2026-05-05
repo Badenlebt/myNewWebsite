@@ -1,0 +1,9 @@
+[
+  { "id": "german", "de": "Deutsch", "en": "German" },
+  { "id": "english", "de": "Englisch", "en": "English" },
+  { "id": "limerick", "de": "Limericks", "en": "Limericks" },
+  { "id": "hommage", "de": "Hommage", "en": "Hommage" },
+  { "id": "antologie", "de": "Antologie", "en": "Anthology" },
+  { "id": "kurzgeschichtentriell", "de": "Kurzgeschichtentriell", "en": "Short story triel" },
+  { "id": "spezielle-form", "de": "Spezielle Form", "en": "Special form" }
+]

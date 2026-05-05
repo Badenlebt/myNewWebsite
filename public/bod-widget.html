@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { margin: 0; padding: 0; font-family: sans-serif; background: transparent; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  .bodShopWidget { margin: 0 auto; }
+</style>
+</head>
+<body>
+<div id="widget-container"></div>
+<script>
+  // Read params from URL: key (objID), swKey, type
+  const params = new URLSearchParams(window.location.search);
+  const key = params.get('key');
+  const swKey = params.get('swKey');
+  const type = params.get('type') || 'print';
+
+  if (key && swKey) {
+    // Create the widget div
+    const container = document.getElementById('widget-container');
+    const widgetDiv = document.createElement('div');
+    widgetDiv.id = 'bodShopWidget_' + key + '_' + type;
+    widgetDiv.className = 'bodShopWidget';
+    container.appendChild(widgetDiv);
+
+    // Set up the books array
+    var books = [];
+    books.push({
+      "objID": parseInt(key),
+      "swKey": swKey,
+      "type": type,
+      "size": "small",
+      "font": "nonSerif",
+      "shadow": false,
+      "contour": true,
+      "coverContour": false,
+      "fontColor": "#000",
+      "contourColor": "#ccc",
+      "shadowBtn": false,
+      "contourBtn": false,
+      "bgColor": "#fff",
+      "btnFontColor": "#fff",
+      "btnColor": "#6C3483",
+      "btnContourColor": type === "ebook" ? "#fd6041" : "#6C3483",
+      "mandantShopUrl": "https://buchshop.bod.de",
+      "lang": "de"
+    });
+
+    // Load the BoD script
+    var script = document.createElement("script");
+    script.src = "https://assets.bod.com/shopwidget/build/js/v1.1/shopWidget.min.js";
+    script.type = "text/javascript";
+    document.head.appendChild(script);
+  }
+</script>
+</body>
+</html>

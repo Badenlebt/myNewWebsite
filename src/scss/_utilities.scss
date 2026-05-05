@@ -1,0 +1,115 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// ======================
+// Flex Utilities
+// ======================
+.d-flex { display: flex; }
+.flex-column { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap; }
+.align-items-center { align-items: center; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+
+// ======================
+// Spacing Utilities
+// ======================
+$spacing-map: (
+  1: $spacing-sm,
+  2: $spacing-md,
+  3: $spacing-lg,
+  4: $spacing-xl,
+);
+
+// Margin top
+@each $level, $value in $spacing-map {
+  .mt-#{$level} { margin-top: $value; }
+}
+
+// Margin bottom
+@each $level, $value in $spacing-map {
+  .mb-#{$level} { margin-bottom: $value; }
+}
+
+// Margin horizontal auto
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Padding
+@each $level, $value in $spacing-map {
+  .p-#{$level} { padding: $value; }
+}
+
+// ======================
+// Text Utilities
+// ======================
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+// ======================
+// Hover Utilities
+// ======================
+.hover-lift {
+  @include transition(transform, box-shadow);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.hover-glow {
+  @include transition(box-shadow);
+
+  &:hover {
+    box-shadow: 0 0 20px rgba($color-purple-light, 0.2);
+  }
+}
+
+// ======================
+// Container Utility
+// ======================
+.container {
+  width: 100%;
+  max-width: $breakpoint-xl;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-md;
+  padding-right: $spacing-md;
+
+  @include respond-to('md') {
+    padding-left: $spacing-lg;
+    padding-right: $spacing-lg;
+  }
+}
+
+// ======================
+// Selection Styling
+// ======================
+::selection {
+  background-color: rgba($color-purple-light, 0.3);
+  color: $color-white;
+}
+
+// ======================
+// Scrollbar Styling
+// ======================
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-gunmetal;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba($color-white, 0.15);
+  border-radius: 4px;
+
+  &:hover {
+    background: rgba($color-white, 0.25);
+  }
+}

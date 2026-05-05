@@ -1,0 +1,88 @@
+[
+  {
+    "id": "keinhorn",
+    "title": "Das Keinhorn",
+    "subtitle": "",
+    "type": "poem",
+    "description": "<p>Das Keinhorn wird von den Einhörnern nicht akzeptiert, da es – wie der Name sagt – kein Horn auf dem Kopf hat.<br/>Was es tut, um trotzdem dazuzugehören und was sich daraus entwickelt, davon handelt diese gereimte Geschichte.</p><span class=\"divider\"></span><p>Das Buch wurde am 11. November 2021 veröffentlicht und ist seitdem überall <a href=\"/books/das-keinhorn#shoplinks\">erhältlich!</a></p>",
+    "descriptionLong": "<p>Das Keinhorn wird von den Einhörnern nicht akzeptiert, da es – wie der Name sagt – kein Horn auf dem Kopf hat.</p><p>Es würde alles dafür tun, dazuzugehören und hat auch eine geniale Idee, die zunächst funktioniert.<br/>Doch wird das gutgehen?</p><p>Dieses gereimte Buch erzählt dazu eine Geschichte von Anders-Sein, Ausgrenzung und Akzeptanz.</p><span class=\"divider\"></span><p>Meine Töchter sind große Fans von Einhörnern, so dass diese immer wieder Thema bei uns zuhause sind.</p><p>Das und Bücher wie Das NEINhorn (Marc-Uwe Kling) und Kleiner Wolf in weiter Welt (Rachel Bright), die wir gemeinsam gelesen haben, brachten mich schließlich auf die Idee zu diesem Buch.</p><p>Zum Geburtstag wurde ich mit einer illustrierten Fotobuch-Version des Buchs überrascht. Recht spontan habe ich dann beschlossen, daraus noch ein „echtes“ Buch zu machen, das auch jeder kaufen kann.</p>",
+    "quote": "Das Keinhorn, das war ganz allein\nund schaute ziemlich traurig drein.\nKein Einhorn kam zu ihm zum Spiel,\nweil ihnen allen nicht gefiel,\ndass es kein Horn am Kopf gebar,\nund somit auch kein Einhorn war.\nSo zumindest ihre Sicht –\nund die hatte halt Gewicht.",
+    "url": "das-keinhorn",
+    "image": "Keinhorn-Cover.jpg",
+    "imageRight": "© Petra Schwer",
+    "hasShopLinks": true,
+    "shop": {
+      "key": "3586316",
+      "types": [
+        "ebook",
+        "print"
+      ],
+      "provider": "bod",
+      "links": [
+        {
+          "label": "eBook im BoD Shop kaufen →",
+          "url": "https://buchshop.bod.de/das-keinhorn-michael-hitzelberger-9783755786573?utm_source=saleswidget&utm_medium=referral&utm_campaign=saleswidget_small"
+        },
+        {
+          "label": "Buch im BoD Shop kaufen →",
+          "url": "https://buchshop.bod.de/das-keinhorn-michael-hitzelberger-9783755714521?utm_source=saleswidget&utm_medium=referral&utm_campaign=saleswidget_small"
+        }
+      ],
+      "swKey": "0e2aaf0fb2cd40b5606f8a7914b25534"
+    }
+  },
+  {
+    "id": "albert",
+    "title": "Albert Ameise",
+    "subtitle": "und Simon Specht",
+    "type": "text",
+    "description": "<p>Albert Ameise und Simon Specht sind zwei ungleiche Freunde, die gemeinsam viele Abenteuer innerhalb und außerhalb ihres Waldes erleben.</p><span class=\"divider\"></span><p>Das Buch wurde im März 2026 veröffentlicht und ist seitdem überall <a href=\"/books/albert-ameise#shoplinks\">erhältlich!</a></p>",
+    "descriptionLong": "<p>Albert Ameise und Simon Specht sind zwei ungleiche Freunde, die gemeinsam viele Abenteuer innerhalb und außerhalb ihres Waldes erleben.</p><p>Sie lernen sich kennen, als Albert sich im Wald verläuft und Simon in rettet und zurück zum Ameisenhügel bringt. Von da an sind sie unzertrennlich.</p><span class=\"divider\"></span><p>Entstanden sind die Geschichten als Gute-Nacht-Geschichten für meine Töchter. Irgendwann habe ich beschlossen, sie aufzuschreiben.<br/>Die Geschichten haben meine Schwester, Petra Schwer, die schon das Keinhorn illustriert hat, dazu inspiriert, auch Albert und seine Freunde liebevoll zum Leben zu erwecken.</p><p>Wer noch mehr Zeit mit den tierischen Freunden und ihren Abenteuern verbringen will, kann auf das dazu erschienene Malbuch zurückgreifen. Dort sind alle im Buch enthaltenen Illustrationen als Ausmalvariante enthalten – mit leerer Rückseite, so dass man die Seiten heraustrennen kann.</p><p>Das Buch, sowie das begleitende Ausmalbuch, sind nun direkt bei epubli und allen Buchhandlungen sowie Online-Buchhändlern erhältlich.</p>",
+    "quote": "Heute sind Albert und Simon wieder zu einem Ausflug verabredet. Als Albert aus dem Ameisenhügel klettert ist Simon noch nicht da, also setzt er sich unter ein Farnblatt und wartet. Kurz darauf kommt Simon angeflogen und die beiden begrüßen sich herzlich.\n„Hallo Simon, schön dass du da bist, ich freue mich schon auf unseren Ausflug!“, ruft Albert ihm entgegen.\n„Ja, ich freue mich auch schon total. Steig auf, dann fliegen wir gleich los!“, antwortet Simon.",
+    "url": "albert-ameise",
+    "image": "Albert-bunt.jpg",
+    "imageRight": "© Petra Schwer",
+    "hasShopLinks": true,
+    "shop": {
+      "key": "",
+      "types": [
+        "print",
+        "coloring"
+      ],
+      "provider": "epubli",
+      "links": [
+        {
+          "label": "Vorlesebuch im epubli-Shop kaufen →",
+          "url": "https://www.epubli.com/shop/im-wald-mit-albert-ameise-und-simon-specht-9783565270200"
+        },
+        {
+          "label": "Ausmalbuch im epubli-Shop kaufen →",
+          "url": "https://www.epubli.com/shop/im-wald-mit-albert-ameise-und-simon-specht-dein-malbuch-9783565270255"
+        }
+      ]
+    }
+  },
+  {
+    "id": "herzgedanken",
+    "title": "Herzgedanken",
+    "subtitle": "",
+    "type": "poem",
+    "description": "<p>Herzgedanken – Gesammelte Gedichte ist ein Auszug aus meinem lyrischen Schaffen aus den letzten fast vier Jahrzehnten.</p><span class=\"divider\"></span><p>Es enthält Gedichte zu Bereichen wie Natur(erlebnisse), Herzen im Takt, oder Mensch(en).</p>",
+    "descriptionLong": "<p>Seit meiner Kindheit und Jugend dichte, schreibe und texte ich. Herzgedanken – Gesammelte Gedichte ist ein Auszug aus meinem lyrischen Schaffen aus den letzten fast vier Jahrzehnten.</p><p>Es enthält Gedichte zu Bereichen wie Natur(erlebnisse), Herzen im Takt, oder Mensch(en).</p><p>Der größte Abschnitt umfasst den Themenblock Das Selbst in Zeit und Raum, der sich um Themen wie Sinn, Selbsterkenntnis und Wachstum dreht.</p><p>Ergänzt wird das ganze durch 3-Wörter-Gedichte. Diese entstanden im Rahmen von Online-Herausforderungen. Hierbei gibt jemand 3 – nicht zwingend offensichtlich zueinander naheliegende – Wörter vor, zu denen alle Teilnehmer ein möglichst prägnantes, gerne humorvolles Gedicht erstellen.</p><p>Dazu enthält die Sammlung auch drei Englische Gedichte, die mein Faible für die Englische Sprache und ihre Eignung zu lyrischem Werken widerspiegeln.</p><p>Die Sammlung befindet sich gerade im Veröffentlichungsprozess und ist demnächst überall erhältlich.</p>",
+    "quote": "Solang der Mensch noch so verbleibt\nund sein Leben sich vertreibt,\nist er viel zu oft allein,\num wirklich glücklich je zu sein.",
+    "url": "herzgedanken",
+    "image": "Herzgedanken.png",
+    "imageRight": "„Heart of Light“ von Manu Hist lizensiert unter CC BY 2.0",
+    "hasShopLinks": true,
+    "shop": {
+      "key": "5622530",
+      "types": [
+        "ebook",
+        "print"
+      ],
+      "provider": "bod",
+      "swKey": "37f077962263229c98548ac240b15f40"
+    },
+    "imagetype": "png"
+  }
+]

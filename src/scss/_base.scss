@@ -1,0 +1,103 @@
+@use 'sass:color';
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// ======================
+// Font Face Declarations
+// ======================
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 1000;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 1000;
+  font-style: italic;
+  font-display: swap;
+}
+
+// ======================
+// CSS Reset
+// ======================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// ======================
+// Global Typography
+// ======================
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: 1rem;
+  line-height: $line-height-base;
+  color: $color-white;
+  background-color: $color-gunmetal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+// ======================
+// Headings
+// ======================
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: $spacing-sm;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+// ======================
+// Links
+// ======================
+a {
+  color: $color-purple-light;
+  text-decoration: none;
+  @include transition(color);
+
+  &:hover {
+    color: color.adjust($color-purple-light, $lightness: 10%);
+  }
+}
+
+// ======================
+// Images
+// ======================
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// ======================
+// Divider
+// ======================
+.divider {
+  display: flex;
+  width: 25%;
+  height: 3px;
+  background: currentColor;
+  border-radius: 2px;
+  margin: 2rem auto;
+  opacity: 0.4;
+}

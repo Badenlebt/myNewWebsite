@@ -1,0 +1,102 @@
+{
+  "buttons": {
+    "back": "Back",
+    "open": "Open",
+    "toTop": "Back to top"
+  },
+  "global": {
+    "title": "Michael Hitzelberger",
+    "subtitle": "Poems, books and more",
+    "moreLinks": "More links",
+    "imprint": "Imprint",
+    "social": "Social media",
+    "imageRight": "Image",
+    "titleImageRight": "Title image",
+    "author": "Michael Hitzelberger"
+  },
+  "links": {
+    "start": "Home",
+    "blog": "Blog",
+    "books": "Books",
+    "keinhorn": "Das Keinhorn",
+    "albertAmeise": "Albert Ameise",
+    "imprint": "Imprint",
+    "startUrl": "/",
+    "blogUrl": "/blog",
+    "booksUrlPart": "/books/",
+    "keinhornUrl": "/books/das-keinhorn",
+    "albertAmeiseUrl": "/books/albert-ameise",
+    "imprintUrl": "/imprint",
+    "aboutMe": "About me",
+    "aboutMeUrl": "/about-me",
+    "herzgedanken": "Herzgedanken",
+    "herzgedankenUrl": "/books/herzgedanken"
+  },
+  "welcome": {
+    "title": "WELCOME",
+    "subtitle": "to my website!",
+    "text": "Here I publish my poems,\npresent my books,\nand show you what else I do,\nwhat is on my mind.\n\nHave fun looking around!"
+  },
+  "books": {
+    "homeTitle": "Current book projects",
+    "homeIntro": "This is where I present you my current book projects.",
+    "moreLink": "More information on the book",
+    "notFound": "Book not found",
+    "notFoundText": "Unfortunately we could not find a book belonging to this URL.",
+    "lookHere": "You can find my books here:",
+    "shopTitle": "Bookstore links"
+  },
+  "blog": {
+    "title": "Blog",
+    "count": "entries",
+    "tagChosen": "with tag",
+    "categoryChosen": "in category",
+    "moreEntries": "More blog entries",
+    "showMore": "Show more entries",
+    "categories": "Categories",
+    "tags": "Tags",
+    "homeTitle": "Newest blog entries",
+    "moreLink": "Read more",
+    "allEntries": "View all blog entries",
+    "notFound": "Blog entry not found",
+    "notFoundText": "Unfortunately we could not find an entry belonging to this URL.",
+    "lookHere": "You can find my blog here:"
+  },
+  "tags": {
+    "poem": "Poems",
+    "german": "German",
+    "english": "English",
+    "limerick": "Limericks",
+    "hommage": "Hommage",
+    "shortstory": "Short story"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "Unfortunately we could not find any content belonging to this URL.",
+    "toStartpage": "Find more on the"
+  },
+  "imprint": {
+    "title": "Imprint",
+    "responsible": "Responsible for the website's content and data security:",
+    "address": "Michael Hitzelberger\nPostweg 2\n74858 Aglasterhausen",
+    "mail": "mail{'@'}mhitzelberger.de",
+    "whoWeAre": "Who we are",
+    "whoWeAreText": "Our website's address is:",
+    "whoWeAreUrl": "https://mhitzelberger.de",
+    "data": "Data security",
+    "dataText": "With the following data security declaration we want to inform you about the types of personal data we are processing for which purposes. This applies for all processes where personal data is involved, both on our websites and on other online representations like social media profiles (e.g. Facebook or Instagram).",
+    "cookies": "Cookies",
+    "cookiesText1": "Cookies are text files containing data from visited websites or domains and are stored on the user's computer. A cookie is used to store information about the user during or after they visited a website. This data can contain the browser's language setting, the user's login status, a cart or the position of a viewed video.",
+    "cookiesText2": "This website uses cookies to track your interactions with our content. No data is handed over or given access to third parties. You can reject the use of cookies by clicking \"no\" in the cookie dialog on this website. Furthermore, we respect the \"do not track\" settings of your browser; should it be activated, no usage data is being stored.",
+    "otherSites": "Embedded content from other websites",
+    "otherSitesText1": "Postings on this website may contain embedded content (e.g. videos, images). Embedded content from other websites behaves as if you would visit the respective website.",
+    "otherSitesText2": "These websites may collect data about you, use cookies, embed tracking tools from third party sites that track your interactions with this embedded content."
+  },
+  "aboutMe": {
+    "title": "About me",
+    "text0": "I am a computer scientist (bioinformatics), living with my family in Aglasterhausen and working at DB Systel GmbH as an IT consultant.",
+    "text1": "In my free time I write poems and stories and am active as a <a href=\"http://kandelschiffer.de/\" target=\"_blank\" rel=\"noopener\">Kandelschiffer</a> in the \"Echt Mosbacher Fassenacht\" of the <a href=\"https://www.kolping-mosbach.de/echt-mosbacher-fassenacht/\" target=\"_blank\" rel=\"noopener\">Kolping Family Mosbach</a>, among other things.",
+    "text2": "For my daughters I invented bedtime stories about Albert the Ant and am currently working on publishing them as a read-aloud book. I published a rhymed book about a Keinhorn (No-horn) that is not accepted by the unicorns in 2021. See:",
+    "text3": "On this site I will also publish posts on various other topics."
+  }
+}
