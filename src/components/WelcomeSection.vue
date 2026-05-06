@@ -1,6 +1,6 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
-import mhLogo from '@/assets/svg/mh-new-3.png'
+import mhLogo from '@/assets/svg/mh-new-3.svg'
 
 const { t } = useI18n()
 </script>
