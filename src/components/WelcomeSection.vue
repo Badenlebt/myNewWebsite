@@ -30,7 +30,15 @@ const { t } = useI18n()
   align-items: center;
   justify-content: center;
   padding: $spacing-xxl $spacing-lg;
-  background: linear-gradient(135deg, $color-purple-dark 0%, $color-purple-medium 100%);
+  background: linear-gradient(
+    to right,
+    $color-purple-dark 0%,
+    $color-purple-dark 20%,
+    rgba($color-purple-dark, 0.85) 40%,
+    rgba($color-purple-medium, 0.7) 60%,
+    rgba($color-purple-medium, 0.55) 80%,
+    rgba($color-purple-medium, 0.45) 100%
+  );
   overflow: hidden;
 
   @include respond-to('md') {
