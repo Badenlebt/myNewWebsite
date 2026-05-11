@@ -31,13 +31,11 @@ const { t } = useI18n()
   justify-content: center;
   padding: $spacing-xxl $spacing-lg;
   background: linear-gradient(
-    to right,
+    110deg,
     $color-purple-dark 0%,
-    $color-purple-dark 20%,
-    rgba($color-purple-dark, 0.85) 40%,
-    rgba($color-purple-medium, 0.7) 60%,
-    rgba($color-purple-medium, 0.55) 80%,
-    rgba($color-purple-medium, 0.45) 100%
+    $color-purple-dark 30%,
+    rgba($color-purple-light, 0.50) 60%,
+    $color-purple-bright 100%
   );
   overflow: hidden;
 
@@ -99,6 +97,7 @@ const { t } = useI18n()
   &__img {
     width: 200px;
     height: 200px;
+    transition: transform 0.3s ease;
 
     @include respond-to('md') {
       width: 350px;
@@ -108,6 +107,10 @@ const { t } = useI18n()
     @include respond-to('lg') {
       width: 420px;
       height: 420px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
     }
   }
 }
