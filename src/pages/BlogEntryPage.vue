@@ -241,10 +241,18 @@ watch(() => route.params.slug, () => {
 
     :deep(p) {
       text-indent: 1.5em;
-      margin-bottom: 0.75em;
 
       &:first-child {
         text-indent: 0;
+      }
+      
+      &.space-before {
+        margin-top: 1em;
+        text-indent: 0;
+      }
+
+      &.paragraph-divider {
+        text-align: center;
       }
     }
   }
