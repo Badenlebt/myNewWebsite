@@ -5,6 +5,7 @@ import { useI18n } from 'vue-i18n'
 import { useContent } from '@/composables/useContent'
 import { useHead } from '@/composables/useHead'
 import { useLanguage } from '@/composables/useLanguage'
+import { useStructuredData, generateCreativeWorkSchema, generateBreadcrumbSchema } from '@/composables/useStructuredData'
 
 const route = useRoute()
 const { t } = useI18n()
@@ -59,6 +60,16 @@ function updateHead() {
       ogImage: `/images/blog/${entry.value.image}`,
       ogType: 'article'
     })
+    
+    // Add structured data for blog entry
+    useStructuredData(generateCreativeWorkSchema(entry.value))
+    
+    // Add breadcrumb structured data
+    useStructuredData(generateBreadcrumbSchema([
+      { name: 'Home', url: 'https://mhitzelberger.de/' },
+      { name: 'Blog', url: 'https://mhitzelberger.de/blog' },
+      { name: displayTitle.value, url: `https://mhitzelberger.de/blog/${entry.value.url}` }
+    ]))
   } else {
     setHead({
       title: `${t('blog.notFound')} – ${t('global.title')}`,

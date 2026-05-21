@@ -3,6 +3,7 @@ import { onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useContent } from '@/composables/useContent'
 import { useHead } from '@/composables/useHead'
+import { useStructuredData, generateWebSiteSchema, generatePersonSchema } from '@/composables/useStructuredData'
 import WelcomeSection from '@/components/WelcomeSection.vue'
 import HomeBooksSection from '@/components/HomeBooksSection.vue'
 import HomeBlogSection from '@/components/HomeBlogSection.vue'
@@ -22,6 +23,11 @@ onMounted(async () => {
     title: `${t('global.title')} – ${t('global.subtitle')}`,
     description: t('welcome.text').split('\n')[0]
   })
+  
+  // Add structured data for homepage
+  useStructuredData(generateWebSiteSchema())
+  useStructuredData(generatePersonSchema())
+  
   await Promise.all([fetchBlogEntries(), fetchBooks()])
 })
 </script>

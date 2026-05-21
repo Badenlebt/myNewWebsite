@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useContent } from '@/composables/useContent'
 import { useHead } from '@/composables/useHead'
+import { useStructuredData, generateBookSchema, generateBreadcrumbSchema } from '@/composables/useStructuredData'
 
 const route = useRoute()
 const { t } = useI18n()
@@ -38,6 +39,16 @@ function updateHead() {
       description: book.value.description.replace(/<[^>]*>/g, '').slice(0, 160),
       ogImage: `/images/books/${book.value.image}`
     })
+    
+    // Add structured data for book
+    useStructuredData(generateBookSchema(book.value))
+    
+    // Add breadcrumb structured data
+    useStructuredData(generateBreadcrumbSchema([
+      { name: 'Home', url: 'https://mhitzelberger.de/' },
+      { name: 'Bücher', url: 'https://mhitzelberger.de/#books' },
+      { name: title, url: `https://mhitzelberger.de/books/${book.value.url}` }
+    ]))
   } else {
     setHead({
       title: `${t('books.notFound')} – ${t('global.title')}`,
