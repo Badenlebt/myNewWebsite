@@ -60,7 +60,9 @@
     "allEntries": "Alle Blogeinträge ansehen",
     "notFound": "Eintrag nicht gefunden",
     "notFoundText": "Unter dieser URL konnte leider kein Eintrag gefunden werden.",
-    "lookHere": "Alle Blogeinträge sind hier zu finden:"
+    "lookHere": "Alle Blogeinträge sind hier zu finden:",
+    "newEntry": "Neuer\nBlogeintrag",
+    "newEntryAriaLabel": "Zum neuesten Blogeintrag"
   },
   "tags": {
     "poem": "Gedichte",

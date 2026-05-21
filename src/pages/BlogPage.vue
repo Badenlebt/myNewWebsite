@@ -37,7 +37,7 @@ const filteredEntries = computed(() => {
     entries = entries.filter(entry => entry.tags.includes(activeTag.value))
   }
 
-  return entries
+  return entries.sort((a, b) => new Date(b.entryDate) - new Date(a.entryDate))
 })
 
 function toggleTag(tagId) {

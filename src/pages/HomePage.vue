@@ -6,12 +6,16 @@ import { useHead } from '@/composables/useHead'
 import WelcomeSection from '@/components/WelcomeSection.vue'
 import HomeBooksSection from '@/components/HomeBooksSection.vue'
 import HomeBlogSection from '@/components/HomeBlogSection.vue'
+import NewBlogNotification from '@/components/NewBlogNotification.vue'
 
 const { t } = useI18n()
 const { books, blogEntries, isLoading, error, fetchBlogEntries, fetchBooks } = useContent()
 const { setHead } = useHead()
 
-const latestEntries = () => blogEntries.value.slice(0, 3)
+const latestEntries = () => {
+  var sortedEntries = blogEntries.value.sort((a, b) => new Date(b.entryDate) - new Date(a.entryDate))
+  return sortedEntries.slice(0, 3)
+}
 
 onMounted(async () => {
   setHead({
@@ -34,6 +38,8 @@ onMounted(async () => {
       <HomeBooksSection :books="books" />
       <HomeBlogSection :entries="latestEntries()" />
     </template>
+
+    <NewBlogNotification />
   </main>
 </template>
 

@@ -60,7 +60,9 @@
     "allEntries": "View all blog entries",
     "notFound": "Blog entry not found",
     "notFoundText": "Unfortunately we could not find an entry belonging to this URL.",
-    "lookHere": "You can find my blog here:"
+    "lookHere": "You can find my blog here:",
+    "newEntry": "New\nBlog Entry",
+    "newEntryAriaLabel": "Go to newest blog entry"
   },
   "tags": {
     "poem": "Poems",
