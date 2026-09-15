@@ -165,13 +165,6 @@ describe('MenuBar', () => {
       expect(booksBtn.text()).toContain('Bücher')
     })
 
-    it('renders Impressum link', async () => {
-      const { wrapper } = await mountMenuBar()
-      const links = wrapper.findAll('.menubar__link')
-      const imprintLink = links.find(l => l.text() === 'Impressum')
-      expect(imprintLink).toBeDefined()
-    })
-
     it('renders book dropdown items from content', async () => {
       const { wrapper } = await mountMenuBar()
       const dropdownLinks = wrapper.findAll('.menubar__dropdown-link')

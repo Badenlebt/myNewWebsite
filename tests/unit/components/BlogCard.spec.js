@@ -149,14 +149,15 @@ describe('BlogCard', () => {
       const { wrapper } = await mountBlogCard()
       const dateEl = wrapper.find('.blog-card__date')
       expect(dateEl.exists()).toBe(true)
-      // Date should be formatted (German locale)
-      expect(dateEl.text()).toContain('2020')
+      // Date shown is the entryDate (formatted, German locale)
+      expect(dateEl.text()).toContain('2021')
     })
 
     it('renders date with datetime attribute', async () => {
       const { wrapper } = await mountBlogCard()
       const dateEl = wrapper.find('.blog-card__date')
-      expect(dateEl.attributes('datetime')).toBe('2020-03-28')
+      // BlogCard binds datetime to entryDate
+      expect(dateEl.attributes('datetime')).toBe('2021-04-13')
     })
 
     it('renders tag badges', async () => {

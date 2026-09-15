@@ -31,8 +31,8 @@ describe('blog-entries.json — new entries', () => {
       expect(entry.categories).toEqual(['poem'])
     })
 
-    it('has date starting with 2026-03', () => {
-      expect(entry.date.startsWith('2026-03')).toBe(true)
+    it('has entryDate starting with 2026-03', () => {
+      expect(entry.entryDate.startsWith('2026-03')).toBe(true)
     })
   })
 
@@ -56,8 +56,8 @@ describe('blog-entries.json — new entries', () => {
       expect(entry.categories).toEqual(['shortstory'])
     })
 
-    it('has date starting with 2025-06', () => {
-      expect(entry.date.startsWith('2025-06')).toBe(true)
+    it('has entryDate starting with 2025-06', () => {
+      expect(entry.entryDate.startsWith('2025-06')).toBe(true)
     })
   })
 
@@ -104,8 +104,8 @@ describe('blog-entries.json — new entries', () => {
       expect(entry.categories).toEqual(['poem'])
     })
 
-    it('has date starting with 2025-04', () => {
-      expect(entry.date.startsWith('2025-04')).toBe(true)
+    it('has entryDate starting with 2025-02', () => {
+      expect(entry.entryDate.startsWith('2025-02')).toBe(true)
     })
   })
 

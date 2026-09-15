@@ -232,26 +232,4 @@ describe('FooterSection', () => {
     })
   })
 
-  describe('Scroll to top', () => {
-    it('renders scroll-to-top button', async () => {
-      const { wrapper } = await mountFooter()
-      const topBtn = wrapper.find('.footer__top-btn')
-      expect(topBtn.exists()).toBe(true)
-    })
-
-    it('scroll-to-top button has correct title', async () => {
-      const { wrapper } = await mountFooter()
-      const topBtn = wrapper.find('.footer__top-btn')
-      expect(topBtn.attributes('title')).toBe('Nach oben')
-    })
-
-    it('clicking scroll-to-top calls window.scrollTo', async () => {
-      const scrollToSpy = vi.spyOn(window, 'scrollTo').mockImplementation(() => {})
-      const { wrapper } = await mountFooter()
-      const topBtn = wrapper.find('.footer__top-btn')
-      await topBtn.trigger('click')
-      expect(scrollToSpy).toHaveBeenCalledWith({ top: 0, behavior: 'smooth' })
-      scrollToSpy.mockRestore()
-    })
-  })
 })

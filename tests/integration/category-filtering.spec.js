@@ -177,10 +177,11 @@ describe('Category Filtering Integration', () => {
       const wrapper = await mountApp(router, '/blog?category=poem&tag=german')
 
       const cards = wrapper.findAll('.blog-card-stub')
-      // Only poem-german-1 and poem-german-2 match both category=poem AND tag=german
+      // Only poem-german-1 and poem-german-2 match both category=poem AND tag=german.
+      // BlogPage sorts descending by entryDate, so Natur (2022-05-01) precedes Frühling (2021-04-13).
       expect(cards.length).toBe(2)
-      expect(cards[0].text()).toContain('Frühling')
-      expect(cards[1].text()).toContain('Natur')
+      expect(cards[0].text()).toContain('Natur')
+      expect(cards[1].text()).toContain('Frühling')
     })
 
     it('does not show entries that match only category but not tag', async () => {

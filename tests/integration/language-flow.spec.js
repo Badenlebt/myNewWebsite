@@ -222,10 +222,9 @@ describe('Language Flow Integration', () => {
       await flushPromises()
       await nextTick()
 
-      // Verify German navigation links
+      // Verify German navigation links (Impressum lives in the footer, not the MenuBar)
       expect(wrapper.text()).toContain('Startseite')
       expect(wrapper.text()).toContain('Bücher')
-      expect(wrapper.text()).toContain('Impressum')
 
       // Switch to English
       const enButton = getLangButton(wrapper, 'EN')
@@ -236,7 +235,6 @@ describe('Language Flow Integration', () => {
       // Verify English navigation links
       expect(wrapper.text()).toContain('Home')
       expect(wrapper.text()).toContain('Books')
-      expect(wrapper.text()).toContain('Imprint')
     })
 
     it('switching back to DE restores German text', async () => {

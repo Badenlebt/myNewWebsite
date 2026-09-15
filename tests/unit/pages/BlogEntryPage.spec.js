@@ -210,7 +210,8 @@ describe('BlogEntryPage', () => {
       const { wrapper } = await mountBlogEntry()
       const time = wrapper.find('time')
       expect(time.exists()).toBe(true)
-      expect(time.attributes('datetime')).toBe('2020-03-28')
+      // The entry header <time> binds datetime to entryDate
+      expect(time.attributes('datetime')).toBe('2021-04-13')
     })
 
     it('renders the entry text', async () => {
